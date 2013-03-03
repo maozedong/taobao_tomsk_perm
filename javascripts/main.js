@@ -1,7 +1,7 @@
 console.log('This would be the main JS file.');
 var num_regex = /^[-+]?[0-9]*\.?[0-9]+$/; // numeric digits only
 $(document).ready(function(){
-  $('.super-wrapper input').val('');
+	$('.super-wrapper input').val('');
   var cTao = {
 	price : 0,
 	quantity : 0,
@@ -43,7 +43,7 @@ $(document).ready(function(){
 		}else{
 			this.price = this.price*0.1;
 		}
-		this.total = this.price*this.quantity*1.25*18.4 + this.weight*this.quantity*355;
+		this.total = this.price*this.quantity*1.25*18.4 + this.weight*355;
 		this.total = this.total.toFixed(2);
 	}
   }
