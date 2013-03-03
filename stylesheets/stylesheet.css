@@ -55,7 +55,7 @@ a:focus {
 Theme Styles
 *******************************************************************************/
 body{
-  background color:
+	background color:
 }
 span { display:inline-block; vertical-align:middle }
 a{
@@ -91,7 +91,7 @@ font-size: 24px;
 	margin-right: auto ;
 }
 div.name{
-	-webkit-border-top-left-radius: 15px;
+-webkit-border-top-left-radius: 15px;
 -webkit-border-bottom-left-radius: 15px;
 -moz-border-radius-topleft: 15px;
 -moz-border-radius-bottomleft: 15px;
@@ -108,6 +108,13 @@ text-align:left;
 	font-size:18px;
 	color:white;
 	font-weight:bold;
+}
+.info{
+	font-weight:bold;
+	padding: 0 0 0 40px;
+}
+.weight{
+
 }
 .name>p{
 	width:140px;
