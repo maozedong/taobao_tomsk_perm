@@ -7,7 +7,8 @@
     <meta name="description" content="Taobao tomsk perm : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
     <title>Калькулятор группы Taobao tomsk perm</title>
   </head>
 
@@ -29,58 +30,108 @@
     </div>
 -->
     <!-- MAIN CONTENT -->
-<div>
-  <h1>Калькулятор цен TAOBAO</h1>
-  <div id="calc">
-    <div id="price">
-      <div class="name" style="float:left">ЦЕНА, юань</div>
+	<div class="super-wrapper">
+	<img src="/images/logo.jpg" alt="no img" style="float:left"/>
+<div class="calc-wrapper">
+  <div class="calcTao calc">
+    <h1><a href=" http://www.taobao.com">Taobao.COM</a></h1>
+	<div class="item">
+      <div class="name" style="float:left"><span><b>цена</b>, юань</span></div>
       <div class="inputDiv">
-        <input type="text">
+        <input type="text" class="price" placeholder="только числа">
       </div>
     </div>
-    <div id="quantity">
-      <div class="name" style="float:left">КОЛИЧЕСТВО, шт.</div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>количество</b>, шт.</span></div>
       <div class="inputDiv">
-        <input type="text">
+        <input type="text" class="quantity" placeholder="только числа">
       </div>
     </div>
-    <div id="weight">
-      <div class="name" style="float:left">ВЕС, кг</div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>вес 1 изделия</b>, кг</span></div>
       <div class="inputDiv">
-        <input type="text">
+        <input type="text" class="weight" placeholder="только числа">
       </div>
     </div>
-    <div id="total">
-      <div class="name" style="float:left">ИТОГОВАЯ СТОИМОСТЬ, юань</div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>итого</b>, юань</span></div>
       <div class="inputDiv">
-        <input type="text">
+        <input type="text" class="total"  placeholder="общая стоимость" disabled>
+      </div>
+    </div>
+  </div>
+  <div class="calcAli calc">
+    <h1><a href="http://www.aliexpress.com">aliexpress.com</a></h1>
+	<div class="item">
+      <div class="name" style="float:left"><span><b>цена</b>, дол</span></div>
+      <div class="inputDiv">
+        <input type="text" class="price"  placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
+      <div class="inputDiv">
+        <input type="text" class="quantity" placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>итого</b>, дол</span></div>
+      <div class="inputDiv">
+        <input type="text" class="total"  placeholder="общая стоимость"disabled>
+      </div>
+    </div>
+  </div>
+    <div style="clear:both"></div>
+  <div class="calcVS calc">
+    <h1><a href="http://www.victoriassecret.com">Victoriassecret.com</a></h1>
+	<div class="item">
+      <div class="name" style="float:left"><span><b>цена</b>, дол</span></div>
+      <div class="inputDiv">
+        <input type="text" class="price" placeholder="только числа" >
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
+      <div class="inputDiv">
+        <input type="text" class="quantity" placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>итого</b>, дол</span></div>
+      <div class="inputDiv">
+        <input type="text" class="total"  placeholder="общая стоимость" disabled>
       </div>
     </div>
   </div>
   
-  <h1>Калькулятор цен TAOBAO</h1>
-  <div id='calc'>
-    <div id="price"></div>
-    <div id="quantity"></div>
-    <div id="weight"></div>
-    <div id="total"></div>
+  <div class="calcTur calc">
+    <h1>Одежда из Турции</h1>
+	<div class="item">
+      <div class="name" style="float:left"><span><b>цена</b>, лир</span></div>
+      <div class="inputDiv">
+        <input type="text" class="price"  placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
+      <div class="inputDiv">
+        <input type="text" class="quantity"  placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>вес</b>, кг</span></div>
+      <div class="inputDiv">
+        <input type="text" class="weight"  placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>итого</b>, лир</span></div>
+      <div class="inputDiv">
+        <input type="text" class="total"  placeholder="общая стоимость"disabled>
+      </div>
+    </div>
   </div>
-  
-  <h1>Калькулятор цен TAOBAO</h1>
-  <div id='calc'>
-    <div id="price"></div>
-    <div id="quantity"></div>
-    <div id="weight"></div>
-    <div id="total"></div>
-  </div>
-  
-  <h1>Калькулятор цен TAOBAO</h1>
-  <div id='calc'>
-    <div id="price"></div>
-    <div id="quantity"></div>
-    <div id="weight"></div>
-    <div id="total"></div>
-  </div>
+</div>
 </div>
     <!-- FOOTER  
     <div id="footer_wrap" class="outer">
