@@ -7,8 +7,10 @@
     <meta name="description" content="Taobao tomsk perm : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"><!-</script>
+	<script src="javascripts/jquery-1.8.3.js"></script>
 	<script type="text/javascript" src="javascripts/main.js"></script>
+	
     <title>Калькулятор группы Taobao tomsk perm</title>
   </head>
 
@@ -31,7 +33,7 @@
 -->
     <!-- MAIN CONTENT -->
 	<div class="super-wrapper">
-	<img src="http://i.imgur.com/h07xDrv.jpg?1" alt="no img" style="float:left"/>
+	<a href="http://www.vk.com/"><img src="/images/logo.jpg" alt="no img" style="float:left"/></a>
 <div class="calc-wrapper">
   <div class="calcTao calc">
     <h1><a href=" http://www.taobao.com">Taobao.COM</a></h1>
@@ -48,62 +50,18 @@
       </div>
     </div>
     <div class="item">
-      <div class="name weight" style="float:left"><span><b>вес 1 изделия, вводить через точку</b>, кг</span></div>
-      <div class="inputDiv">
+      <div class="name nameWeight" style="float:left"><span><b>вес 1 изделия</b>, кг</br>(вводить через точку)</span></div>
+      <div class="inputDiv nameWeight">
         <input type="text" class="weight" placeholder="только числа">
       </div>
     </div>
     <div class="item">
-      <div class="name" style="float:left"><span><b>итого</b>, юань</span></div>
+      <div class="name" style="float:left"><span><b>итого</b>, руб</span></div>
       <div class="inputDiv">
         <input type="text" class="total"  placeholder="общая стоимость" disabled>
       </div>
     </div>
   </div>
-  <div class="calcAli calc">
-    <h1><a href="http://www.aliexpress.com">aliexpress.com</a></h1>
-	<div class="item">
-      <div class="name" style="float:left"><span><b>цена</b>, дол</span></div>
-      <div class="inputDiv">
-        <input type="text" class="price"  placeholder="только числа">
-      </div>
-    </div>
-    <div class="item">
-      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
-      <div class="inputDiv">
-        <input type="text" class="quantity" placeholder="только числа">
-      </div>
-    </div>
-    <div class="item">
-      <div class="name" style="float:left"><span><b>итого</b>, дол</span></div>
-      <div class="inputDiv">
-        <input type="text" class="total"  placeholder="общая стоимость"disabled>
-      </div>
-    </div>
-  </div>
-    <div style="clear:both"></div>
-  <div class="calcVS calc">
-    <h1><a href="http://www.victoriassecret.com">Victoriassecret.com</a></h1>
-	<div class="item">
-      <div class="name" style="float:left"><span><b>цена</b>, дол</span></div>
-      <div class="inputDiv">
-        <input type="text" class="price" placeholder="только числа" >
-      </div>
-    </div>
-    <div class="item">
-      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
-      <div class="inputDiv">
-        <input type="text" class="quantity" placeholder="только числа">
-      </div>
-    </div>
-    <div class="item">
-      <div class="name" style="float:left"><span><b>итого</b>, дол</span></div>
-      <div class="inputDiv">
-        <input type="text" class="total"  placeholder="общая стоимость" disabled>
-      </div>
-    </div>
-  </div>
-  
   <div class="calcTur calc">
     <h1>Одежда из Турции</h1>
 	<div class="item">
@@ -119,24 +77,935 @@
       </div>
     </div>
     <div class="item">
-      <div class="name weight" style="float:left"><span><b>вес 1 изделия, вводить через точку</b>, кг</span></div>
-      <div class="inputDiv">
+      <div class="name nameWeight" style="float:left"><span><b>вес 1 изделия</b>, кг</br>(вводить через точку)</span></div>
+      <div class="inputDiv nameWeight">
         <input type="text" class="weight"  placeholder="только числа">
       </div>
     </div>
     <div class="item">
-      <div class="name" style="float:left"><span><b>итого</b>, лир</span></div>
+      <div class="name" style="float:left"><span><b>итого</b>, руб</span></div>
+      <div class="inputDiv">
+        <input type="text" class="total"  placeholder="общая стоимость" disabled>
+      </div>
+    </div>
+  </div>
+  
+  <div style="clear:both"></div>
+
+  <div class="calcAli calc">
+    <h1><a href="http://www.aliexpress.com">aliexpress.com</a></h1>
+	<div class="item">
+      <div class="name" style="float:left"><span><b>цена</b>, дол</span></div>
+      <div class="inputDiv">
+        <input type="text" class="price"  placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
+      <div class="inputDiv">
+        <input type="text" class="quantity" placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>итого</b>, руб</span></div>
       <div class="inputDiv">
         <input type="text" class="total"  placeholder="общая стоимость"disabled>
       </div>
     </div>
   </div>
-<div class="info">
-	<span>Примерные сроки доставки:</span></br>
+  <div class="calcVS calc">
+    <h1><a href="http://www.victoriassecret.com">Victoriassecret.com</a></h1>
+	<div class="item">
+      <div class="name" style="float:left"><span><b>цена</b>, дол</span></div>
+      <div class="inputDiv">
+        <input type="text" class="price" placeholder="только числа" >
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>количество</b>, шт</span></div>
+      <div class="inputDiv">
+        <input type="text" class="quantity" placeholder="только числа">
+      </div>
+    </div>
+    <div class="item">
+      <div class="name" style="float:left"><span><b>итого</b>, руб</span></div>
+      <div class="inputDiv">
+        <input type="text" class="total"  placeholder="общая стоимость" disabled>
+      </div>
+    </div>
+  </div>
+  <div style="clear:both"></div>
+  <h1>Примерные сроки доставки:</h1>
+  <div class="info">
 	<span>Taobao.COM 3-5 недель</span></br>
 	<span>aliexpress.com 20-50 дней</span></br>
 	<span>Victoriassecret.com 30 дней</span></br>
 	<span>Одежда из Турции 30 дней</span></br>
+</div>
+
+<div style="clear:both;"></div>
+
+<div class="buttons-wrapper" id="buttons-wrapper">
+<h1>Примерный вес вещей</h1>
+<h1 class="button women active"><p>Женская одежда</p></h1>
+<h1 class="button men"><p>Мужская одежда</p></h1>
+<h1 class="button children"><p>Детская одежда</p></h1>
+<h1 class="button other"><p>Другое</p></h1>
+</div>
+<div style="clear:both;"></div>
+<div>
+<table cellspacing="0" cellpadding="0" width="700px" border="0" class="women" style="mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm" class="MsoNormalTable">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Рубашка/Футболка/Топ</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Меховая накидка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Платье/Сарафан</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3 - 0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Меховая жилетка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шорты/Юбка/Бриджи</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3 - 0,4</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Свадебное платье</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1 - 1,5</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Брюки/Джинсы</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Спортивный костюм</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Ветровка/<span class="SpellE">Джинсовка</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Комбинезон</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 0,7</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кардиган/Водолазка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Халат <span class="SpellE">х</span>/б</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,6</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кофта/Свитер</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пижама <span class="SpellE">х</span>/б</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Толстовка<span class="GramE">/Х</span>уди</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Халат махровый</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Деловой костюм</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><span class="SpellE">Термобелье</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пиджак</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Колготки/Лосины</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,05 - 0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кожаная куртка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Носки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,05</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:12">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Плащ</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><span class="SpellE">Бюстгалтер</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1 - 0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:13">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пальто</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,9 - 1,1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Трусики/Плавки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,05</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:14">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Жилетка на <span class="SpellE">синтепоне</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шапка/Перчатки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1 - 0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:15">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Куртка на <span class="SpellE">синтепоне</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пояс/Ремень/Часы</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1 - 0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:16">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Горнолыжные
+  куртка/штаны</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кошелек/<span class="SpellE">Клатч</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2 - 0,4</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:17">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пуховик короткий</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Серьги/Цепочка/Браслет</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,05 - 0,1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:18">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пуховик длинный</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1 - 1,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Зонт</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:19">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шуба длинная</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Сумка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:20">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шуба короткая</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Зимняя обувь</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,2 - 1,4</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:21">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Туфли/<span class="SpellE">Ботильоны</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кроссовки/Кеды</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:22;mso-yfti-lastrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Босоножки/Балетки/Сланцы</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Купальник</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2 - 0,4</p>
+  </td>
+ </tr>
+</tbody></table>
+
+<table cellspacing="0" cellpadding="0" border="0" class="men hide" style="mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm;" class="MsoNormalTable">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Рубашка/Футболка/Поло</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Спортивный костюм</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Жилетка/Безрукавка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3 - 0,4</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шорты</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Брюки/Джинсы</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Спортивный костюм</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Ветровка/<span class="SpellE">Джинсовка</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пижама</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кардиган/Водолазка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Халат</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кофта/Свитер/Толстовка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><span class="SpellE">Термобелье</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,7</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Деловой костюм</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Трусы/Плавки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пиджак</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шапка/Перчатки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1 - 0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кожаная куртка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1 - 1,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Носки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,05</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Плащ</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Ремень/Часы</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пальто</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,2 - 1,4</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Портмоне/Кошелек</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2 - 0,3</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:12">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Жилетка на <span class="SpellE">синтепоне</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Зимняя обувь</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,2 - 1,4</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:13">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Куртка на <span class="SpellE">синтепоне</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кроссовки/Кеды</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:14">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Горнолыжные
+  куртка/штаны</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Туфли/Мокасины</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:15">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пуховик короткий</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Галстук</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1 - 0,15</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:16;mso-yfti-lastrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пуховик длинный</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Браслет/Цепочка/Запонки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,05 - 0,15</p>
+  </td>
+ </tr>
+</tbody></table>
+
+<table cellspacing="0" cellpadding="0" border="0" class="children hide" style="mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm" class="MsoNormalTable">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Ботинки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пальто</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Ветровки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Песочник/<span class="SpellE">Боди</span>/Футболка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Водолазки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2 - 0,3</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пуховик</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Джемпер</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3 - 0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Сандалии</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,6</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Комбинезон
+  джинсовый</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3 - 0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Сапоги</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Комбинезон
+  трикотажный</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2 - 0,3</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><span class="SpellE">Угги</span></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,8 - 1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Кроссовки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шапка лёгкая <span class="SpellE">х</span>/б</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Куртка <span class="SpellE">демисез</span>. длинная</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 0,8</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Шапка шерстяная</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,1 - 0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9;mso-yfti-lastrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Куртка <span class="SpellE">демисез</span>. короткая</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Юбка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3</p>
+  </td>
+ </tr>
+</tbody></table>
+
+<table cellspacing="0" cellpadding="0" border="0" class="other hide" style="mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm" class="MsoNormalTable">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Наименование</b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal"><b>Примерный вес</b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Пододеяльник</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Тканевое одеяло</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">1,3</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Простыня</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,4 - 0,5</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Скатерть</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,6 - 0,8</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Наволочка</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Очки</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,2</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Полотенце личное</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,3</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Носовой платок</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,02 - 0,03</p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5;mso-yfti-lastrow:yes">
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">Полотенце банное</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p align="center" style="text-align:center" class="MsoNormal">0,5 - 0,6</p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+  <td style="padding:0cm 0cm 0cm 0cm"></td>
+ </tr>
+</tbody></table>
+
 </div>
 </div>
 </div>
