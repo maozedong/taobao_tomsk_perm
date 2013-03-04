@@ -1,5 +1,5 @@
 console.log('This would be the main JS file.');
-var num_regex = /^[-+]?[0-9]*\.?[0-9]+$/; // numeric digits only
+var num_regex = /^[-+]?[0-9]*\.?[0-9]*$/; // numeric digits only
 $(document).ready(function(){
 
 $('.button.men').click(function(){
