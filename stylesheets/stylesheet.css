@@ -63,6 +63,58 @@ a{
 	text-decoration:none;
 	color: #554035;
 }
+table{
+	width:687px;
+	font-weight:bold;
+	-webkit-border-bottom-right-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+	background-color: #a38c4d;
+	text-align: center;
+	margin: 0 30px 0 30px;
+	color: white;
+}
+.hide{
+	display:none;
+}
+.buttons-wrapper{
+margin: 10px 30px 0px 30px;
+width:687px;
+}
+.button.active{
+-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+	background-color: #a38c4d;
+		border: 2px solid #a38c4d;
+	border-bottom: none;
+
+}
+.button{
+-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+	cursor:pointer;
+	display:inline-block;
+	font-weight:bold;
+	padding: 0 6px 0 6px;
+	text-align: center;
+	border: 2px solid #a38c4d;
+	border-bottom: none;
+	margin:0;
+}
+table p{
+	margin: 0 10px 0 10px;
+}
 input{
 padding: 0px 0px 0px 5px;
 	width:130px;
@@ -75,6 +127,7 @@ input:disabled{
 	font-weight:bold;
 }
 h1{
+color: #554035;
 text-align:center;
 font-weight:bold;
 font-size: 24px;
@@ -111,10 +164,38 @@ text-align:left;
 }
 .info{
 	font-weight:bold;
-	padding: 0 0 0 40px;
+	padding: 0 40px 0 40px;
+	-webkit-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #a38c4d;
+	text-align: center;
+	margin: 0 30px 30px 30px;
+	color: white;
 }
-.weight{
-
+#open{
+	font-weight:bold;
+	padding: 0 10px 0 10px;
+	-webkit-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #a38c4d;
+	text-align: center;
+	margin: 0 30px 0 30px;
+	color: white;
+}
+.name.nameWeight{
+	height:60px; 
+}
+.inputDiv.nameWeight{
+	height:68px; 
+}
+input.weight{
+	height:66px; 
 }
 .name>p{
 	width:140px;
