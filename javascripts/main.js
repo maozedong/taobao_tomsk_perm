@@ -1,6 +1,13 @@
 console.log('This would be the main JS file.');
 var num_regex = /^[-+]?[0-9]*\.?[0-9]*$/; // numeric digits only
 $(document).ready(function(){
+$('.outerButton.1').click(function(){
+	window.location.href = "http://vk.com/page-47108714_44227455";
+});
+
+$('.outerButton.2').click(function(){
+	window.location.href = "http://vk.com/page-47108714_44227458";
+});
 
 $('.button.men').click(function(){
 	$('table.men').show();
@@ -102,7 +109,7 @@ $('.button.other').click(function(){
 		}else if(this.price > 100){
 			this.condition = this.price*0.1;
 		}
-		this.total = this.price*this.quantity*1.25*18.4 + this.weight*355 + this.condition*18.4;
+		this.total = this.price*this.quantity*1.25*18.4 + this.weight*355 + this.condition;
 		this.total = this.total.toFixed(2);
 		}else{
 			this.total = 0;
