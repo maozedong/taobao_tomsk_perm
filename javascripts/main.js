@@ -109,7 +109,7 @@ $('.button.other').click(function(){
 		}else if(this.price > 100){
 			this.condition = this.price*0.1;
 		}
-		this.total = this.price*this.quantity*1.25*18.4 + this.weight*355 + this.condition;
+		this.total = this.price*this.quantity*1.25*18.4 + this.weight*355 + this.condition*18.4;
 		this.total = this.total.toFixed(2);
 		}else{
 			this.total = 0;
